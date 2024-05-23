@@ -135,6 +135,7 @@ iHSVA::iHSVA(int h, int s, int v, int a)
     A = a;
 }
 
+// Exact copy
 std::string iHSVA::ToString(bool Brackets, bool IncludeConstructor)
 {
     // Whether to include Alpha or not
